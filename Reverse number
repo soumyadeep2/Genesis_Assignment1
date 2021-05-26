@@ -1,0 +1,11 @@
+def number():
+
+number = int(input("Enter a number: "))
+reverse_number = ''
+ 
+while number > 0:
+    last_digit = number % 10
+    reverse_number += str(last_digit)
+    number = number // 10
+ 
+print("Reverse number is: ", reverse_number)
