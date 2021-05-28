@@ -1,0 +1,22 @@
+#Number Triangle
+
+for i in range(5):
+   for j in range(i + 1):
+      print(j + 1, end="")
+   print("")
+   
+  #Pascal Traingle
+  
+   def newrow(row):
+        "Calculate a row of Pascal's triangle given the previous one."
+        prev = 0
+        for x in row:
+            yield prev + x
+            prev = x
+        yield 1
+
+    prevrow = [1]
+    yield prevrow
+    for x in range(n):
+        prevrow = list(newrow(prevrow))
+        yield prevrow
