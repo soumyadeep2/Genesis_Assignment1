@@ -1,11 +1,11 @@
-int distance = Math.abs(array[0] - mean);
-    int i = 0;
-    for (int c = 1; c < array.length; c++)
+ distance = Math.abs(array[0] - mean)
+     i = 0;
+    for ( c in c < array.length; c++)
     {
-        int cdistance = Math.abs(array[c] - mean);
+         cdistance = Math.abs(array[c] - mean)
         if (cdistance < distance)
         {
-            i = c;
-            distance = cdistance;
+            i = c
+            distance = cdistance
         }
     }
