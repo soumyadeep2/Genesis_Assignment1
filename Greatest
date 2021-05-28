@@ -12,3 +12,11 @@ def greatest():
        print("c is greatest") 
 
 greatest()
+
+
+#test function
+
+def test_greatest():
+
+ assert greatest( a.upper() )
+   answer = wrong input
