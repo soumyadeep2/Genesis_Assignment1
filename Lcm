@@ -13,3 +13,16 @@ while(True):
         print("\n LCM of {0} and {1} = {2}".format(a, b, maximum))
         break;
     maximum = maximum + 1
+    
+ #test function
+ 
+ def test_lcm()
+ 
+   assert lcm(a=b)
+     answer = false
+     
+   assert lcm( a= 0)
+     anser = 0
+      
+   
+ 
