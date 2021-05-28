@@ -14,4 +14,4 @@ def average_speed():
     average_speed.config(text=f"{value} Km/Hr")
     
     
-    I made this file like this vode as a whole for better understanding
+     ///I made this file like this way as a whole for better understanding///
