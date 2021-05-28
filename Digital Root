@@ -3,3 +3,12 @@ def digital_root(n):
         return n
     n=n%10+digital_root(n//10)
     return digital_root(n)
+
+
+# test function
+
+
+def test_digital():
+ assert digital_root(n>10)
+ 
+ assert digital_root(n=10)
