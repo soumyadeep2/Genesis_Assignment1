@@ -1,0 +1,12 @@
+test_str = "Soumyadeep"
+
+count_dict = {}
+for i in test_str:
+
+   if i in count_dict:
+      count_dict[i] += 1
+
+   else:
+      count_dict[i] = 1
+print ("Count of all characters in Soumyadeep is :\n "+
+str(count_dict))
