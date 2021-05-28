@@ -5,3 +5,12 @@ def fibonacci(n):
         print(a, end=' ')
         a, b = b, a+b
     print()
+
+
+#test function
+
+def test_fibo():
+
+   assert fibonacci(a>n):
+   assert fibonacci(n<-1)
+   
