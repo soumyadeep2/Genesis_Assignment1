@@ -15,8 +15,14 @@ def printTrib(n) :
         print( printTribRec(i) , " ", end = "")
          
  
-# Driver code
+
 n = 10
 printTrib(n)
  
  
+#Test function
+
+def test_trib():
+
+assert printTribRec(n<0)
+answer = false
