@@ -1,0 +1,17 @@
+def average_speed():
+      
+    
+    hrs = int(hours.get())
+   
+    mins = int(minutes.get())
+    
+    dist = int(distance.get())
+ 
+    
+    value = dist/(hrs+(mins/60))
+  
+    
+    average_speed.config(text=f"{value} Km/Hr")
+    
+    
+    I made this file like this vode as a whole for better understanding
