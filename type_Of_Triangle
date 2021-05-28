@@ -6,3 +6,10 @@ def type_of_triangle(a,b,c):
         print('Triangle is Isosceles.')
     else:
         print('Triangle is Scalane')
+
+
+#test function
+
+def test_type():
+  assert typ_of_triangle(a<0 && b>0)
+  answer = false
