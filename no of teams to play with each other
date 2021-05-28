@@ -11,3 +11,10 @@ def number_of_teams(M):
     if (N1 > 0):
         return int(N1)
     return int(N2)
+
+
+#test function
+
+def test_teams():
+
+  assert(math.sqrt(1 + (9 * M))
