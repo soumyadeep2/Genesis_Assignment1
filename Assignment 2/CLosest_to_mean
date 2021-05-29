@@ -1,6 +1,6 @@
  distance = Math.abs(array[0] - mean)
-     i = 0;
-    for ( c in c < array.length; c++)
+     i = 0
+    for  c in c < array.length 
     {
          cdistance = Math.abs(array[c] - mean)
         if (cdistance < distance)
